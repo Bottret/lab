@@ -31,6 +31,6 @@
           "davidbwaters.macos-modern-theme"
           ]
       }
-    },
-    "postCreateCommand": "pip3 install pygments && wget -P ~ https://git.io/.gdbinit"
+       },
+    "postCreateCommand": "pip3 install --break-system-packages pygments && wget -P ~ https://github.com/cyrus-and/gdb-dashboard/raw/master/.gdbinit"
   }
